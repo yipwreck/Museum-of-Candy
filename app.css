@@ -3,8 +3,9 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-#mainNavbar .navbar-brand {
-    color: #ea1c2c;
+#mainNavbar {
+    font-size: 1.5em;
+    font-weight: 100;
 }
 
 #mainNavbar .nav-link {
@@ -15,7 +16,16 @@ body {
     color: #ea1c2c;
 }
 
-#mainNavbar {
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
     font-size: 1.5em;
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h1 {
+    font-size: 4em;
     font-weight: 100;
 }
